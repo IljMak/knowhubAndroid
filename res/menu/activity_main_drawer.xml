@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <!-- Add this item to your activity_main_drawer.xml menu -->
+
+    </group>
+
+    <!-- Quiz Menü-Gruppe -->
+    <item android:title="Quiz">
+        <menu>
+            <item
+                android:id="@+id/nav_quiz_android"
+                android:title="@string/topic_android" />
+            <item
+                android:id="@+id/nav_quiz_programming"
+                android:title="@string/topic_programming" />
+        </menu>
+    </item>
+</menu>
